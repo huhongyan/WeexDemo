@@ -27,6 +27,7 @@
     ],
     "license": "MIT",
     "dependencies": {
+        "babel-plugin-transform-runtime": "^6.23.0",
         "moment": "^2.22.2",
         "phantom-limb": "0.0.1",
         "url-parse": "^1.4.3",

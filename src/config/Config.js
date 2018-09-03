@@ -10,12 +10,7 @@ export const mainTabBarHeight = 120
 export const reposDetailTopTabBarHeight = 80
 export const controlBarHeight = 80
 
-export const primaryColor = '#3c3f41'
-export const actionBlue = '#267aff'
-export const miWhite = '#ececec'
-export const primaryDarkColor = '#121917'
-export const primaryLightColor = '#42464b'
-export const webDraculaBackgroundColor = '#282a36'
+export const themeColor = '#009ff0'
 
 export function getEntryPageStyle(Utils) {
     let mainHeight = `${getRealScreenHeight(Utils)}px`

@@ -4,6 +4,7 @@ import Navbar from '@/views/Navbar.vue'
 import WeexUi from '@/views/WeexUi.vue'
 import Debug from '@/views/Debug.vue'
 import Style from '@/views/Style.vue'
+import Login from '@/views/Login.vue'
 
 Vue.use(Router)
 
@@ -12,10 +13,10 @@ module.exports = new Router({
         {
             path: '/',
             name: 'Navbar',
-            component: Navbar
-            // meta: {
-            //     keepAlive: true
-            // }
+            component: Navbar,
+            meta: {
+                keepAlive: true
+            }
         },
         {
             path: '/ui',
@@ -31,6 +32,11 @@ module.exports = new Router({
             path: '/style',
             name: 'Style',
             component: Style
+        },
+        {
+            path: '/login',
+            name: 'Login',
+            component: Login
         }
     ]
 })

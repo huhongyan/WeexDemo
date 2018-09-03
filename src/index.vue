@@ -17,10 +17,6 @@ export default {
         return {
             realHeight: `${getRealScreenHeight(Utils)}px`
         }
-    },
-    created() {
-        debugger
-        console.log(this.$route)
     }
 }
 </script>
